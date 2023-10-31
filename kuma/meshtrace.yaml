@@ -13,7 +13,3 @@ spec:
       - type: OpenTelemetry
         openTelemetry:
           endpoint: oteld-collector.default.svc.cluster.local:4317
-    sampling:
-      overall: 100
-      random: 100
-      client: 100

@@ -58,7 +58,7 @@ Save the value of the token . We will use it later to store in a k8S secret
 ```
 DATA_INGEST_TOKEN=<YOUR TOKEN VALUE>
 ```
-### Istio
+### Kuma
 
 1. Download kumactl
 ```shell
