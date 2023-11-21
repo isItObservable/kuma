@@ -6,7 +6,7 @@
 This repository contains the files utilized during the tutorial presented in the dedicated IsItObservable episode related to Kuma.
 
 
-This repository showcase the usage of Ambient Mesh with :
+This repository showcase the usage of kuma with :
 * The OpenTelemetry demo
 * Dynatrace
 
