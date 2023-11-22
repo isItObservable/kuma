@@ -34,7 +34,7 @@ cloudprofiler.googleapis.com \
 ### 2.Create a GKE cluster
 ```shell
 ZONE=europe-west3-a
-NAME=isitobservable-kumamesh
+NAME=isitobservable-otel-logs
 gcloud container clusters create ${NAME} --zone=${ZONE} --machine-type=e2-standard-4 --num-nodes=2
 ```
 
@@ -64,8 +64,8 @@ DATA_INGEST_TOKEN=<YOUR TOKEN VALUE>
 ```shell
 curl -L https://kuma.io/installer.sh | VERSION=2.4.3 sh -
 ```
-This command download the latest version of istio ( in our case istio 1.18.2) compatible with our operating system.
-2. Add istioctl to you PATH
+This command download the latest version of kuma ( in our case kuma 2.4.3) compatible with our operating system.
+2. Add kumactl to you PATH
 ```shell
 cd kuma-2.4.3/bin
 ```
